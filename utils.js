@@ -6,6 +6,7 @@ const core = require('@actions/core');
 const artifact = require('@actions/artifact');
 
 
+
 function formatMarkdownBlock(text, collapsible) {
   if (collapsible) {
 return `<details><summary>Expand</summary>
